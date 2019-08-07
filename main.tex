@@ -1,0 +1,159 @@
+\documentclass[8pt]{article}
+\usepackage{float}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+\usepackage{fontawesome}
+\usepackage[dvipsnames]{xcolor}
+
+\colorlet{Mycolor1}{black}
+\colorlet{Mycolor2}{red}
+\colorlet{Mycolor3}{blue}
+\colorlet{Mycolor4}{orange}
+\colorlet{Mycolor5}{BrickRed}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+}
+\usepackage{titlesec}
+\usepackage{titling}
+\pagenumbering{gobble}
+\titlespacing{\subsubsection}{.1em}{.1em}{.1em}
+
+\titleformat{\section}{\filcenter\Small \bfseries}{}{}{}[\titlerule]
+
+\titleformat{\subsection}{\small \bfseries}{}{}{}[\titlerule]
+\titleformat{\subsubsection}[runin]{\small}{}{$-$}{}
+
+\renewcommand{\maketitle}{
+\begin{center}
+{\huge
+\thetitle{
+}
+\vspace{0.5em}
+
+}
+{
+\huge \bfseries
+\theauthor}
+\vspace{0.5em}
+
+\faGithub\hspace{0.5em}\textcolor{Mycolor1}{\href{https://github.com/Zrrck?tab=repositories}{Github}}\hspace{0.5em}
+\faLinkedin\hspace{0.5em}\textcolor{Mycolor1}{\href{https://www.linkedin.com/in/cetin-kaya/}{Linkedin}}\\\vspace{0.5em}
+
+\faEnvelope \hspace{0.2em}\href{mailto:contact@cetinkaya.co}{contact@cetinkaya.co}\hspace{0.2em}
+\faWordpress \hspace{0.2em}\textcolor{Mycolor1}{\href{http://cetinkaya.co}{cetinkaya.co}}\hspace{0.2em}\\
+\vspace{0.5em}
+\faPhoneSquare+90 (538) 571 34 31\vspace{1.em}
+
+
+
+Last Updated 18.06.2019
+
+\end{center}
+}
+\begin{document}
+
+\title{R\'esum\'e}
+\author{Cetin Kaya}
+\maketitle
+
+
+
+
+\section{EDUCATION}
+Kocaeli University \hspace{10.em} 2015-2019
+Electronics and Communications Engineering\\ 4th Degree \\
+Concentration: Embedded System Design, Web Development, Machine Learning, Signal and Image Processing
+
+\section{JOB EXPERIENCE}
+Kennywood Amusement Park, Food and Beverage Attendant, USA \hspace{6.em}June 2017-Septenber 2017
+
+\begin{itemize}
+\itemsep0em
+\item I worked here as a part of work and travel program. 
+\item Even though it is not my profession, I've gained valuable
+experience such as English speaking, working as a team,
+communication with customers and met with people from different
+cultures.
+\end{itemize}
+
+
+\section{SKILLS}
+\begin{table}[H]
+\centering
+\begin{tabular}{p{10em} p{10em}p{10em}} 
+
+ \underline{Hardware} ~ & \underline{Front-End}~ & \underline{Back-End }     \\              
+ 
+ MSP430 & HTML & PHP \\ 
+ STM32 &  CSS& Python \\ 
+ RaspberryPi & Sass & Node.js  \\ 
+ Arduino & React &  \\ 
+  PSOC & Vue &  \\ 
+   PIC & Angular &  \\ 
+
+
+
+\end{tabular}
+\end{table}
+\section{PROJECTS}
+
+
+
+
+\subsection{Web Control Smart Home: Mar.-May 2019 \textcolor{Mycolor3}{\href{https://github.com/Zrrck/Web-Control-Smart-Home}{\small{Github}}} \textcolor{Mycolor4}{\href{http://webtek.cetinkaya.co}{\small{Website}}}
+\textcolor{Mycolor2}{\href{https://youtu.be/G7QD9RP_mmE}{\small{Demo}}}} 
+The server runs on the Raspberry Pi and for the web side of the project. I've utilized HTML, CSS, MySQL, PHP and to control
+hardwares, such as servos, LEDs, fans etc. I've used Python as a choice of programming language. The webpage runs on my personal website and can be accessed from anywhere in the world.
+
+
+
+\subsection{Capacitive Touch Buttons \& Slider: May 2019  
+\textcolor{Mycolor3}{\href{https://github.com/Zrrck/Capacitive-Touch-Implementation-}{\small{Github}}}\textcolor{Mycolor2}{\href{https://youtu.be/4U37eLWOmPw} {\small{Demo}}}} 
+Designed and printed a single side PCB in Altium Designer and 
+the PCB has built in buttons and sliders. The capacitance is measured with microprocessor MSP430.
+
+\subsection{Concept Smart Home Project: Sep.-Dec. 2018 \textcolor{Mycolor3}{\href{https://github.com/Zrrck/Like-a-Smart-Home-but-Not}{\small{Github}}}
+\textcolor{Mycolor2}{\href{https://youtu.be/kD4CY6Yt-gg}{\small{Demo}}}}
+Designed a smart home concept and implemented a GUI in C\# to control household appliances. It also has other features such as door security system. The hardware side of the project implemented in Arduino and communication between Arduino and the computer achieved using the serial protocol.
+
+
+\subsection{Security System: May 2018 \textcolor{Mycolor3}{\href{https://github.com/Zrrck/Raspberry-Pi-Fire-Security-System}{\small{Github}}}
+\textcolor{Mycolor2}{\href{https://youtu.be/s6VeqZgOBLw}{\small{Demo}}}}
+The security system detects both motion and flames. As a motion sensor PIR-based sensor is used, 
+as a flame sensor, I've used a IR sensor because a flame emits 760 nm - 1100 nm wavelength. To make this system even more functional, I've setup a Raspberry Pi with a camera. The camera takes a picture when the motion or flame is detected and sends the picture via e-mail.  
+
+\subsection{Color Detection Circuit: Mar.-May 2018 \textcolor{Mycolor3}{\href{https://github.com/Zrrck/Color-Detection-using-TCS3200}{\Small{Github}}}
+\textcolor{Mycolor2}{\href{https://youtu.be/NfwZGEqTPVs}{\small{Demo}}}}
+I've designed this circuit for a class as a final project. It utilizes the TCS3200 sensor to convert, light to frequency and then this frequencies compared in MSP430 microprocessor to evaluate the color. Also designed a compact PCB for the circuit.
+
+\subsection{3D Printer: Feb. 2018} 
+While I design hardware and software side of the projects, I also need custom made parts to achieve my goals in the projects. Since the 3D Printer has these capabilities, I've designed and built a 3D printer. My goal for this printer was to make it cheap but with enough functionality to meet by needs.
+
+\subsection{Digital Clock with Temperature: Oct.-Dec. 2017 \textcolor{Mycolor3}{\href{https://github.com/Zrrck/Digital-Clock-with-Teperature-Display}{\Small {Github}}}
+\textcolor{Mycolor2}{\href{https://youtu.be/F9gKzfekm9k}{\small {Demo}}} }
+With Altium Designer, I've designed and printed double sided PCB for this project. The clock is also capable of measuring and displaying the temperature. It utilizes the MSP430 microprocessor.
+
+
+
+
+\section{COMMUNITIES \& CERTIFICATES}
+\begin{itemize}
+\itemsep0em
+\item IEEE RAS(Robotics and Automation Society)  2015 
+
+
+\item \textcolor{Mycolor5}{\href{https://www.coursera.org/account/accomplishments/certificate/8VLTSNMH2832}{Getting Started with Python University of Michigan }}\\
+Mar. 2019 
+
+ \item \textcolor{Mycolor5}{\href{https://www.coursera.org/account/accomplishments/certificate/X7QKJD4ASQQD}{Python Data Structures University of Michigan }}\\
+ Apr. 2019 
+\end{itemize}
+
+\end{document}
