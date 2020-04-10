@@ -1,6 +1,9 @@
 \documentclass[10pt]{article}
+\usepackage{wrapfig}
 \usepackage{float}
 \usepackage{ragged2e}
+\usepackage{graphicx}
+
 \usepackage{geometry}
  \geometry{
  a4paper,
@@ -32,17 +35,19 @@
 \titleformat{\subsubsection}[runin]{\small}{}{$-$}{}
 
 \renewcommand{\maketitle}{
+
 \begin{center}
+
 {\huge
 \thetitle{
 }
-\vspace{0.5em}
+\vspace{0.7em}
 
 }
 {
 \huge \bfseries
 \theauthor}
-\vspace{0.5em}
+\vspace{0.7em}
 
 \faGithub\hspace{0.5em}\textcolor{Mycolor1}{\href{https://github.com/Zrrck?tab=repositories}{Github}}\hspace{0.5em}
 \faLinkedin\hspace{0.5em}\textcolor{Mycolor1}{\href{https://www.linkedin.com/in/cetin-kaya/}{Linkedin}}\\\vspace{0.5em}
@@ -54,7 +59,7 @@
 
 
 
-Last Updated 20.08.2019
+Last Updated 10.04.2020
 
 \end{center}
 }
@@ -66,13 +71,16 @@ Last Updated 20.08.2019
 
 
 
-
+\vspace{5em}
 \section{EDUCATION}
-Kocaeli University Electronics and Communications Engineering 4th Degree \hspace{10.em} 2015-2020
+Kocaeli University Electronics and Communications Engineering \hspace{15.em} 2015-2020
 \\ \\
-Concentration: Embedded System Design, Web Development, Network Systems.
-
+Graduation Project: U-Shaped Meandered Slot Antenna for Biomedical Applications Using CST Studio.
+\\ \\
+Concentration: Embedded System Design, Competitive Programming (C++), Web Development.
+\vspace{1em}
 \section{JOB EXPERIENCE}
+\vspace{1em}
 \subsection{Intership}
 LN Computer\hspace{30.em} 26/07/2019-27/08/2019
 \begin{itemize}
@@ -81,7 +89,7 @@ LN Computer\hspace{30.em} 26/07/2019-27/08/2019
 \item I learned  Cisco Switch and Router NAC (Nerwork Access Control) configurations, VLAN definitions, virtual system installation in Cisco Packet Tracer.
 \end{itemize}
 
-
+\vspace{1em}
 \subsection{Volunteer Experience}
 Kennywood Amusement Park, Food and Beverage Attendant, USA \hspace{6.em}June 2017-Septenber 2017
 
@@ -93,50 +101,85 @@ experience such as English speaking, working as a team,
 communication with customers and met with people from different
 cultures.
 \end{itemize}
-
-
+\vspace{1em}
+\section{LANGUAGES}
+\underline{\bfseries{English}}:   I can read, write and speak fluently. I am planning to take IELTS for documenting \\ \\
+\underline{\bfseries{Japanese}}:    I am doing self-study to get the JLPT test. I almost passed the N4 level. I am planning to pass the N2 level.
+\newpage
+\vspace{2em}
 \section{SKILLS}
+\vspace{1em}
+\subsection{Hardware}
+\vspace{1em}
+MSP430, STM32, Raspberry Pi, PSOC, Arduino, PIC
+\vspace{1em}
+\subsection{Programming}
+\vspace{1em}
+C, C++, MATLAB, Python,  {\LaTeX}, C\#,  VHDL, Assembly
+\vspace{1em}
+\subsection{Software}
+\vspace{1em}
+Altium, Keil, IAR, Fusion 360, HSPICE, CST Studio, Dreamweaver, XILINX Vivado, Multisim, LabVIEW
+\vspace{1em}
+\subsection{Web Development}
+
 \begin{table}[h!]
 
 
 \begin{center}
-\begin{tabular}{p{6em} p{6em} p{6em} p{5em} p{5em} p{5em} p{4em} } 
+\begin{tabular}{p{10em} p{10em} p{10em} } 
 
- \underline{Hardware} ~ &\underline{Programming}~ & \underline{Software}~ & \underline{Front-End}~ & \underline{Back-End }  ~ & \underline{Database } ~ & \underline{Operating Systems  }   \\              
- 
- MSP430 & C& Altium & HTML & PHP & MySQL & MacOS \\ 
- STM32 & C\# & Keil &CSS& Python & & Linux \\ 
- RaspberryPi & MATLAB & IAR &JavaScript & & &Windows \\ 
- Arduino & VHDL& Dreamweaver& Bootstrapt &  \\ 
-  PSOC & Assembly & Fusion 360&  &  \\ 
-   PIC & & Multisim& &  \\ 
-      & & LabVIEW & &  \\ 
-         & & XILINX Vivado & &  \\ 
-
+ \underline{\bfseries{Front-End}}~ & \underline{B\bfseries{ack-End }}  ~ & \underline{\bfseries{Database }}  \\              
+ & & \\
+ HTML & PHP & MySQL  \\ 
+ & & \\
+ CSS& Python & \\ 
+ & & \\
+ JavaScript & & \\ 
+ & & \\
+ Bootstrap \\
+  
 
 
 \end{tabular}
 \end{center}
 \end{table}
+\subsection{Network}
+\vspace{1em}
+\begin{itemize}
+ \justifying
+   
+\itemsep1em
+\item Cisco Packet Tracer
+\item Router NAC (Nerwork Access Control) configurations
+\item VLAN definitions
 
+\item IP Basic Technology (TCP/IP, OSI, Internet Protocols)
+
+\item     Router Routing Technology
+ \item    Network Fundamentals
+ \item    OSPF, IS-IS, BGP,  MPLS
+
+
+\end{itemize} 
 \vspace{10em}
 \section{PROJECTS}
-
-
-
+\subsection{CMOS Folded Cascode OTA Simulation in HSPICE December 2019 \textcolor{Mycolor3}{\href{https://github.com/Zrrck/CMOS-Folded-Cascode-OTA-Simulation-in-HSPICE-}{\small{Github}}} \textcolor{Mycolor4}{\href{https://github.com/Zrrck/CMOS-Folded-Cascode-OTA-Simulation-in-HSPICE-/blob/master/ASDE_Report.pdf}{\small{Project Report}}}}
+In this term, I took the analogue circuit design essentials lecture. Being the final project, I designed and simulated CMOS folded cascode OTA for specific design values such as DC gain, bandwidth, CMRR, PSRR, the power consumption etc using HSPICE.
+\subsection{Harris Corner Detector December 2019 
+\textcolor{Mycolor3}{\href{https://github.com/Zrrck/Harris-Corner-Detection}{\small{Github}}}} 
+In this project, I tried to implement the Harris corner detection algorithm on Matlab. The algorithm parameters need to be optimized for different images.
+\subsection{Quad-Band-Monopole-Antenna-for-IoT-Applications October-December 2019 
+\textcolor{Mycolor3}{\href{https://github.com/Zrrck/Quad-Band-Monopole-Antenna-for-IoT-Applications}{\small{Github}}}} 
+In this project, my motivation was to design an antenna for my future IoT project uses. The antenna consists of four branches to operate at different frequency bands and open stubs for more matching and it is designed on FR-4 substrate with thickness 1.6 mm and it has compact size 32×20×1.6 mm3. The proposed antenna is designed, simulated and measured. All simulation results are performed using the CST software. The antenna is working GPS(1.575 GHz), LTE(2.7 GHz), WiMAX(3.5 GHz), WLAN(5.8 GHz) bands. 
 
 \subsection{Web Control Smart Home: Mar.-May 2019 \textcolor{Mycolor3}{\href{https://github.com/Zrrck/Web-Control-Smart-Home}{\small{Github}}} \textcolor{Mycolor4}{\href{http://webtek.cetinkaya.co}{\small{Website}}}
 \textcolor{Mycolor2}{\href{https://youtu.be/G7QD9RP_mmE}{\small{Demo}}}} 
-The server runs on the Raspberry Pi and for the web side of the project. I've utilized HTML, CSS, MySQL, PHP and to control
-hardwares, such as servos, LEDs, fans etc. I've used Python as a choice of programming language. The webpage runs on my personal website and can be accessed from anywhere in the world.
-
-
+In this project, I wanted to improve my web development and IoT skills which is another area having fun while working. The server runs on the Raspberry Pi. To implement a server in Raspberry Pi, I’ve utilized HTML, CSS, MySQL, PHP. Whereas Python programming language is used to control hardware, such as servos, LEDs, fans, etc. Furthermore, the webpage runs on my personal website and can be accessed from anywhere in the world which is perfect to create smart home appliances. 
 
 \subsection{Capacitive Touch Buttons \& Slider: May 2019  
 \textcolor{Mycolor3}{\href{https://github.com/Zrrck/Capacitive-Touch-Implementation-}{\small{Github}}}\textcolor{Mycolor2}{\href{https://youtu.be/4U37eLWOmPw} {\small{Demo}}}} 
-Designed and printed a single side PCB in Altium Designer and 
-the PCB has built in buttons and sliders. The capacitance is measured with microprocessor MSP430.
-
+Designed and printed a single-sided PCB in Altium Designer and the PCB has built-in buttons and sliders. The finger and PCB copper trace create a capacitor between the PCB and the finger where total capacitance can be calculated by summing parasitic capacitance of the PCB and capacitance between finger and PCB. The change in capacitance converted to a digital signal and processed in a microcontroller to create buttons and sliders. I have chosen MSP430 as the microcontroller.
 \subsection{Concept Smart Home Project: Sep.-Dec. 2018 \textcolor{Mycolor3}{\href{https://github.com/Zrrck/Like-a-Smart-Home-but-Not}{\small{Github}}}
 \textcolor{Mycolor2}{\href{https://youtu.be/kD4CY6Yt-gg}{\small{Demo}}}}
 Designed a smart home concept and implemented a GUI in C\# to control household appliances. It also has other features such as door security system. The hardware side of the project implemented in Arduino and communication between Arduino and the computer achieved using the serial protocol.
@@ -149,7 +192,7 @@ as a flame sensor, I've used a IR sensor because a flame emits 760 nm - 1100 nm 
 
 \subsection{Color Detection Circuit: Mar.-May 2018 \textcolor{Mycolor3}{\href{https://github.com/Zrrck/Color-Detection-using-TCS3200}{\Small{Github}}}
 \textcolor{Mycolor2}{\href{https://youtu.be/NfwZGEqTPVs}{\small{Demo}}}}
-I've designed this circuit for a class as a final project. It utilizes the TCS3200 sensor to convert, light to frequency and then this frequencies compared in MSP430 microprocessor to evaluate the color. Also designed a compact PCB for the circuit.
+I've designed this circuit for a class as a final project. It utilizes the TCS3200 sensor to convert, light to frequency and then this frequencies compared in MSP430 microprocessor to evaluate the color. Designed and printed a single-sided PCB in Altium Designer.
 
 \subsection{3D Printer: Feb. 2018} 
 While I design hardware and software side of the projects, I also need custom made parts to achieve my goals in the projects. Since the 3D Printer has these capabilities, I've designed and built a 3D printer. My goal for this printer was to make it cheap but with enough functionality to meet by needs.
@@ -169,19 +212,21 @@ With Altium Designer, I've designed and printed double sided PCB for this projec
 \begin{itemize}
 \justifying
 \itemsep0em
-\item IEEE RAS(Robotics and Automation Society)  2015 
-
-
+\item IEEE RAS(Robotics and Automation Society)  2015 \\
+While I was a member of this club, I participated in conferences and gained information about the sector and guided me to my future goals. 
+\item Kocaeli University Robotic Society  2016 \\
+While I was a member of this club, we designed a sumo robot for competition. 
 \item \textcolor{Mycolor5}{\href{https://www.coursera.org/account/accomplishments/certificate/8VLTSNMH2832}{Getting Started with Python University of Michigan }}
-Mar. 2019 
+Mar. 2019 \\
+I took this Coursera course to refresh my python programming language knowledge.
 
  \item \textcolor{Mycolor5}{\href{https://www.coursera.org/account/accomplishments/certificate/X7QKJD4ASQQD}{Python Data Structures University of Michigan }}
- Apr. 2019 
-
+ Apr. 2019 \\
+My aim in taking this course was to check the data in my projects and use it for optimization.
 \end{itemize}
 
-\underline{Nokia Network Training}  
-
+\underline{Nokia Network Training May-June 2019}  \\ \\
+While in this six-week training I learnt network technologies from Nokia workers besides I took a computer communication lecture to combine with this training while in this lecture I learnt network hardware such as routers, switches etc.
    \begin{itemize}
  \justifying
    
@@ -190,13 +235,28 @@ Mar. 2019
 
 \item     Router Routing Technology
  \item    Network Fundamentals
- \item    OSPF, IS-IS, BGP
-\item     MPLS
+ \item    OSPF, IS-IS, BGP,  MPLS
+
 
 \end{itemize} 
+\section{HOBBIES}
+ \begin{itemize}
+ \justifying
+   
+\itemsep0em
+\item Qualified coffee
+\item    Amator radio
+\item     Table tennis
+ \item    Street photography
 
 
 
+
+\end{itemize} 
+\section{REFERENCES}
+
+L\&N Bilgisayar ve Danismanlik Hizmetleri San.ve Tic \\
+General Manager Nihat KOK, akok@ln.com.tr
 \end{document}
 
 
